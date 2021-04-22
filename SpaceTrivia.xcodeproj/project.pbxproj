@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CA7A2426317D4000AAA707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA7A2326317D4000AAA707 /* AppDelegate.swift */; };
+		96CA7A2626317D4000AAA707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA7A2526317D4000AAA707 /* SceneDelegate.swift */; };
+		96CA7A2826317D4000AAA707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA7A2726317D4000AAA707 /* ViewController.swift */; };
+		96CA7A2B26317D4000AAA707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CA7A2926317D4000AAA707 /* Main.storyboard */; };
+		96CA7A2D26317D4100AAA707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CA7A2C26317D4100AAA707 /* Assets.xcassets */; };
+		96CA7A3026317D4100AAA707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CA7A2E26317D4100AAA707 /* LaunchScreen.storyboard */; };
+		96CA7A3B26317D4200AAA707 /* SpaceTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA7A3A26317D4200AAA707 /* SpaceTriviaTests.swift */; };
+		96CA7A4626317D4200AAA707 /* SpaceTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA7A4526317D4200AAA707 /* SpaceTriviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96CA7A3726317D4200AAA707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CA7A1826317D4000AAA707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CA7A1F26317D4000AAA707;
+			remoteInfo = SpaceTrivia;
+		};
+		96CA7A4226317D4200AAA707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CA7A1826317D4000AAA707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CA7A1F26317D4000AAA707;
+			remoteInfo = SpaceTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96CA7A2026317D4000AAA707 /* SpaceTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CA7A2326317D4000AAA707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96CA7A2526317D4000AAA707 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96CA7A2726317D4000AAA707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96CA7A2A26317D4000AAA707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CA7A2C26317D4100AAA707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CA7A2F26317D4100AAA707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CA7A3126317D4100AAA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CA7A3626317D4200AAA707 /* SpaceTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CA7A3A26317D4200AAA707 /* SpaceTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTriviaTests.swift; sourceTree = "<group>"; };
+		96CA7A3C26317D4200AAA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CA7A4126317D4200AAA707 /* SpaceTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CA7A4526317D4200AAA707 /* SpaceTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTriviaUITests.swift; sourceTree = "<group>"; };
+		96CA7A4726317D4200AAA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CA7A1D26317D4000AAA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3326317D4200AAA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3E26317D4200AAA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CA7A1726317D4000AAA707 = {
+			isa = PBXGroup;
+			children = (
+				96CA7A2226317D4000AAA707 /* SpaceTrivia */,
+				96CA7A3926317D4200AAA707 /* SpaceTriviaTests */,
+				96CA7A4426317D4200AAA707 /* SpaceTriviaUITests */,
+				96CA7A2126317D4000AAA707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CA7A2126317D4000AAA707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CA7A2026317D4000AAA707 /* SpaceTrivia.app */,
+				96CA7A3626317D4200AAA707 /* SpaceTriviaTests.xctest */,
+				96CA7A4126317D4200AAA707 /* SpaceTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CA7A2226317D4000AAA707 /* SpaceTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				96CA7A2326317D4000AAA707 /* AppDelegate.swift */,
+				96CA7A2526317D4000AAA707 /* SceneDelegate.swift */,
+				96CA7A2726317D4000AAA707 /* ViewController.swift */,
+				96CA7A2926317D4000AAA707 /* Main.storyboard */,
+				96CA7A2C26317D4100AAA707 /* Assets.xcassets */,
+				96CA7A2E26317D4100AAA707 /* LaunchScreen.storyboard */,
+				96CA7A3126317D4100AAA707 /* Info.plist */,
+			);
+			path = SpaceTrivia;
+			sourceTree = "<group>";
+		};
+		96CA7A3926317D4200AAA707 /* SpaceTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				96CA7A3A26317D4200AAA707 /* SpaceTriviaTests.swift */,
+				96CA7A3C26317D4200AAA707 /* Info.plist */,
+			);
+			path = SpaceTriviaTests;
+			sourceTree = "<group>";
+		};
+		96CA7A4426317D4200AAA707 /* SpaceTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96CA7A4526317D4200AAA707 /* SpaceTriviaUITests.swift */,
+				96CA7A4726317D4200AAA707 /* Info.plist */,
+			);
+			path = SpaceTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CA7A1F26317D4000AAA707 /* SpaceTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CA7A4A26317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTrivia" */;
+			buildPhases = (
+				96CA7A1C26317D4000AAA707 /* Sources */,
+				96CA7A1D26317D4000AAA707 /* Frameworks */,
+				96CA7A1E26317D4000AAA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceTrivia;
+			productName = SpaceTrivia;
+			productReference = 96CA7A2026317D4000AAA707 /* SpaceTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CA7A3526317D4200AAA707 /* SpaceTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CA7A4D26317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTriviaTests" */;
+			buildPhases = (
+				96CA7A3226317D4200AAA707 /* Sources */,
+				96CA7A3326317D4200AAA707 /* Frameworks */,
+				96CA7A3426317D4200AAA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CA7A3826317D4200AAA707 /* PBXTargetDependency */,
+			);
+			name = SpaceTriviaTests;
+			productName = SpaceTriviaTests;
+			productReference = 96CA7A3626317D4200AAA707 /* SpaceTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96CA7A4026317D4200AAA707 /* SpaceTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CA7A5026317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTriviaUITests" */;
+			buildPhases = (
+				96CA7A3D26317D4200AAA707 /* Sources */,
+				96CA7A3E26317D4200AAA707 /* Frameworks */,
+				96CA7A3F26317D4200AAA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CA7A4326317D4200AAA707 /* PBXTargetDependency */,
+			);
+			name = SpaceTriviaUITests;
+			productName = SpaceTriviaUITests;
+			productReference = 96CA7A4126317D4200AAA707 /* SpaceTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CA7A1826317D4000AAA707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AndreaSanna;
+				TargetAttributes = {
+					96CA7A1F26317D4000AAA707 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					96CA7A3526317D4200AAA707 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 96CA7A1F26317D4000AAA707;
+					};
+					96CA7A4026317D4200AAA707 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 96CA7A1F26317D4000AAA707;
+					};
+				};
+			};
+			buildConfigurationList = 96CA7A1B26317D4000AAA707 /* Build configuration list for PBXProject "SpaceTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CA7A1726317D4000AAA707;
+			productRefGroup = 96CA7A2126317D4000AAA707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CA7A1F26317D4000AAA707 /* SpaceTrivia */,
+				96CA7A3526317D4200AAA707 /* SpaceTriviaTests */,
+				96CA7A4026317D4200AAA707 /* SpaceTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CA7A1E26317D4000AAA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA7A3026317D4100AAA707 /* LaunchScreen.storyboard in Resources */,
+				96CA7A2D26317D4100AAA707 /* Assets.xcassets in Resources */,
+				96CA7A2B26317D4000AAA707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3426317D4200AAA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3F26317D4200AAA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CA7A1C26317D4000AAA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA7A2826317D4000AAA707 /* ViewController.swift in Sources */,
+				96CA7A2426317D4000AAA707 /* AppDelegate.swift in Sources */,
+				96CA7A2626317D4000AAA707 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3226317D4200AAA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA7A3B26317D4200AAA707 /* SpaceTriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA7A3D26317D4200AAA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA7A4626317D4200AAA707 /* SpaceTriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CA7A3826317D4200AAA707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CA7A1F26317D4000AAA707 /* SpaceTrivia */;
+			targetProxy = 96CA7A3726317D4200AAA707 /* PBXContainerItemProxy */;
+		};
+		96CA7A4326317D4200AAA707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CA7A1F26317D4000AAA707 /* SpaceTrivia */;
+			targetProxy = 96CA7A4226317D4200AAA707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96CA7A2926317D4000AAA707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CA7A2A26317D4000AAA707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CA7A2E26317D4100AAA707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CA7A2F26317D4100AAA707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CA7A4826317D4200AAA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96CA7A4926317D4200AAA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CA7A4B26317D4200AAA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CA7A4C26317D4200AAA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96CA7A4E26317D4200AAA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTriviaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTrivia.app/SpaceTrivia";
+			};
+			name = Debug;
+		};
+		96CA7A4F26317D4200AAA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTriviaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTrivia.app/SpaceTrivia";
+			};
+			name = Release;
+		};
+		96CA7A5126317D4200AAA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceTrivia;
+			};
+			name = Debug;
+		};
+		96CA7A5226317D4200AAA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5LZ26Z8WX;
+				INFOPLIST_FILE = SpaceTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaSanna.SpaceTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CA7A1B26317D4000AAA707 /* Build configuration list for PBXProject "SpaceTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA7A4826317D4200AAA707 /* Debug */,
+				96CA7A4926317D4200AAA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CA7A4A26317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA7A4B26317D4200AAA707 /* Debug */,
+				96CA7A4C26317D4200AAA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CA7A4D26317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA7A4E26317D4200AAA707 /* Debug */,
+				96CA7A4F26317D4200AAA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CA7A5026317D4200AAA707 /* Build configuration list for PBXNativeTarget "SpaceTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA7A5126317D4200AAA707 /* Debug */,
+				96CA7A5226317D4200AAA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CA7A1826317D4000AAA707 /* Project object */;
+}
