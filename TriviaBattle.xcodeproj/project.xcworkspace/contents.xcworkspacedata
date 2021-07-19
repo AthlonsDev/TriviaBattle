@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SpaceTrivia.xcodeproj">
+      location = "self:/Users/athlosn90/Documents/SpaceTrivia/TriviaBattle.xcodeproj">
    </FileRef>
 </Workspace>
